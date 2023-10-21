@@ -16,7 +16,7 @@ public class StepDefinitions {
 
     @Before
     public void setup() {
-        System.setProperty("webdriver.chrome.driver", "/Users/james_surya/Documents/cucumbersauce/src/test/resources/chromedriver/chromedriver"); // Replace with your actual path to chromedriver
+        System.setProperty("webdriver.chrome.driver", "/Users/james_surya/Documents/cucumbersauce/src/test/resources/chromedriver/chromedriver");
         driver = new ChromeDriver();
     }
 
